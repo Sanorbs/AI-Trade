@@ -1,0 +1,17 @@
+stock_tickers:
+  - AAPL
+  - TSLA
+  - BA
+forecast: true
+sentiment: true
+agent: DDPG
+realtime_data: true
+xai: true
+risk: true
+personalization: true
+risk_tolerance: aggressive
+target_return: 0.2
+feedback_weight: 0.8
+
+# Real-time data configuration
+finnhub_api_key: "YOUR_API_KEY_HERE"  # Replace with your actual Finnhub API key 
